@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário do Rian</title>
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!-- Importando o css da biblioteca do AOS animate -->
+
+</head>
+<body>
+    <header class="hero">
+        <picture>
+            <source media="(max-width:768px)" srcset="./images/Parabains_mobile.png"/>
+            <source media="(max-width:1024px)" srcset="./images/Parabains_tablet.png"/>
+            <img src="./images/Parabains.png" alt="Parabains">
+        </picture>
+        <div class="container">
+            <p class="hero__text">
+                A festa de aniversário mais bombástica e menos esperada da região começa em <span id="contador"></span>
+            </p>
+            <div class="infos__bar">
+                <ul class="infos__bar__info">
+                    <li class="infos__bar__info__item">
+                        <b>Localização</b>
+                        Winterfell - Norte - Westeros
+                    </li>
+                    <li class="infos__bar__info__item">
+                        <b>Preço</b>
+                        Se você for, recebe R$ 20,00
+                    </li>
+                    <li class="infos__bar__info__item">
+                        <b>Quando</b>
+                        03/05/2024 às 19hrs
+                    </li>
+                </ul>
+                <a class="button" href="#">
+                    Convidar-se
+                </a>
+            </div>
+        </div>
+    </header>
+        <section class="atractions atractions--comidas">
+            <div class="container" data-aos="fade-right">
+                <div class="atractions__details">
+                    <h2 class="atractions__details__title">Comida e bebida</h2>
+                    <p class="atractions__details__description">
+                        Ao comparecer a este grande evento, se prepare para experimentar todo o tipo de guloseima e beber qualquer bebida não alcoólica que seja do seu agrado. Teremos desde miojo gourmet até pão de queijo caseiro, sendo assim, Bon Appetit!!!
+                    </p>
+                </div>
+                <img src="./images/Pao_de_queijo.png" alt="Pão de queijo" class="atractions__image">
+            </div>
+        </section>
+
+        <section class="atractions atractions--game atractions--image-left">
+            <div class="container" data-aos="fade-left">
+                <div class="atractions__details">
+                    <h2 class="atractions__details__title">Video Game</h2>
+                    <p class="atractions__details__description">
+                        A principal atração da noite não poderia ficar de fora desta ocasião. Prepare-se para partidas iradas com os gráficos ultra realistas do lendário Playstation 2. Nessa atração, um ponto importante a se observar é a situação de suas mãos. Certifique-se de que não há nenhum vestígio de comida nelas para que não suje os controles.
+                    </p>
+                </div>
+                <img src="./images/Video_game.png" alt="Playstation 2" class="atractions__image">
+            </div>
+        </section>
+
+        <section class="atractions atractions--musica">
+            <div class="container" data-aos="fade-right">
+                <div class="atractions__details">
+                    <h2 class="atractions__details__title">Musica</h2>
+                    <p class="atractions__details__description">
+                        E por fim, para dar aquele ânimo em todos, uma boa e velha música. Porém, de acordo com as diretrizes da vizinhança, a música deve variar somente entre 2 estilos: sertanejo raiz e música mexicana.   
+                    </p>
+                </div>
+                <img src="./images/musica.png" alt="Sergio Reis" class="atractions__image">
+            </div>
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script> <!-- Importando o js da biblioteca do AOS animate -->
+        <script src="./scripts/main.js"></script>
+</body>
+</html>
