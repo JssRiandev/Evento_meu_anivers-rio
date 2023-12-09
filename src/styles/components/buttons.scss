@@ -1,6 +1,8 @@
+@use '../variaveis.scss';
+
 .button{
     
-    background-color: rgb(5, 5, 135);
+    background-color: variaveis.$cor_btn;
     text-decoration: none;
     border-radius: 5px;
     padding: 14px;
@@ -8,7 +10,7 @@
     font-weight: bold;
 
     &:hover{
-        background-color: rgba(5, 5, 135, 0.8);
+        background-color: variaveis.$cor_btn_hover;
         text-decoration: underline;
     }
 

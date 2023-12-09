@@ -1,3 +1,5 @@
+@use '../variaveis.scss';
+
 .infos__bar{
     display: flex;
     justify-content: space-between;
@@ -5,7 +7,7 @@
     top: 50%;
     left: 25%;
     width: 50%;
-    background-color: white;
+    background-color: variaveis.$cor_principal;
     padding: 14px 28px;
     text-align: center;
 
@@ -38,7 +40,7 @@
         &__item{
             font-size: 20px;
             line-height: 28px;
-            color: black;
+            color: variaveis.$cor_secundaria;
 
             @media(max-width:640px){
                 font-size: 16px;
@@ -52,7 +54,7 @@
             b{
                 font-size: 24px;
                 display: block;
-                color: black;
+                color: variaveis.$cor_secundaria;
 
                 @media(max-width:640px){
                     font-size: 18px;
